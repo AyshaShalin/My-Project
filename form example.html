@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <table cellspacing="0" cellpadding="5" width="60%" align="center">
+        <tr>
+            <td>Name </td>
+            <td><form action="" method="get" name="reg form">
+                <input type="text" name="name field" id="nme">
+            </td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><textarea name="address" id="addrs" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+         <td>Zip Code</td>
+         <td><input type="number" name="code" id="zip cod"></td>
+    </tr>
+    <tr>
+
+        <td>Country</td>
+        <td><select name="list" id="drpdwnlist" value="Country">
+            <option value="">Please Select</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Korea">Korea</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <td>
+            <input type="radio" name="radio" value="male" id="gndr">Male
+            <input type="radio" name="radio" value="female" id="fml">Female
+        </td>
+    </tr>
+    <tr>
+        <td>Preferances</td>
+        <td><input type="checkbox" name="checkbox" id="chkbx" vale="red" multiplesize="3">red
+            <input type="checkbox" name="checkbox1" id="chkbx1" vale="Green">Green
+            <input type="checkbox" name="checkbox2" id="chkbx2" vale="blue">Blue
+        </td>
+    </tr>
+    <tr>
+        <td>Phone</td>
+        <td><input type="text" name="phone" id="mob no"></td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td><input type="email" name="mail" id="email"></td>
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td><input type="password" name="password" id="pwd" maxlength="6"></td>
+    </tr>
+<tr>
+    <td>Verify password</td>
+    <td><input type="password" name="password 1" id="pwd 2"></td>
+</tr>
+<tr><td>
+</td>
+<td><input type="submit" name="submit btn" value="SEND" id="snd btn"> &nbsp;&nbsp;
+    <input type="reset" name="reset btn" value="CLEAR" id="rst btn">
+</td>
+
+</tr>
+</form>
+    </table>
+    
+</body>
+</html>

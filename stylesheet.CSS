@@ -1,0 +1,8 @@
+body{
+    background-color:pink;
+}
+h1{color: hsla(30, 100%, 20%,2);}
+h2{color:rgba(255, 102, 153,);}
+p{background-color: white;color:#99ff33;}
+hr{color: yellow;}
+table{border: 1px solid red ; border-collapse: collapse;}
